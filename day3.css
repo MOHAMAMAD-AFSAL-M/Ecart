@@ -1,0 +1,118 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+.div1,.div2,.div3{
+    width: 250px;
+    height: 320px;
+    border-radius: 13px;
+    background-color: antiquewhite;
+    box-shadow: 1px 0px 17px 3px rgba(0,0,0,1);
+-webkit-box-shadow: 1px 0px 17px 3px rgba(0,0,0,1);
+-moz-box-shadow: 1px 0px 17px 3px rgba(0,0,0,1);
+}
+.subdiv{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(62, 66, 69);
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    gap: 10px;
+
+
+}
+h3{
+    font-family: monospace ;
+    color: white;
+}
+h1{
+    font-family:sans-serif;
+    letter-spacing: 45px;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 40px;
+
+}
+.div1{
+background-image: url(https://img.freepik.com/free-photo/men-shoes_1203-8387.jpg?ga=GA1.1.543531508.1749787600&semt=ais_hybrid&w=740);
+background-size: cover;
+background-position-x: -30px;
+}
+.div2{
+    background-image: url(https://img.freepik.com/free-photo/shoes_1203-8139.jpg?ga=GA1.1.543531508.1749787600&semt=ais_hybrid&w=740);
+     background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-position-x: 2px;
+}
+.div3{
+    background-image: url(https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?ga=GA1.1.543531508.1749787600&semt=ais_hybrid&w=740);
+     background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-position-x: -110px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    
+}
+ul{
+    font-size: large;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.div1:hover,.div2:hover,.div3:hover {
+    transition: 2s;
+  background-position: top right; 
+}
+.enddiv{
+    width: 100%;
+    height: 130px;
+    padding: 30px 20px;
+    text-align: center;
+        background-color: rgb(62, 66, 69);
+
+}
+.enddiv p{
+
+    color: white;
+    line-height: 0.5cm;
+    max-width: 700px;
+    
+    margin: 0 auto;
+    
+
+}
+.enddiv h2{
+ font-family: sans-serif;
+ margin-bottom: 20px;
+ 
+}
+.subdiv a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+  padding-top: 10px;
+}
+
+.subdiv a:hover {
+  color: #00bcd4;
+}
+
